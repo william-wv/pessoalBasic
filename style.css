@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+:root{
+    --fundo-principal:#0095ff;
+    --branco-principal:#fefefe;
+    --cinza-secundario:#C0C0C0;
+    --corpreta:#111;
+    --fonte-titulo:"Righteous";
+    
+}
+body{
+    background-color: var(--fundo-principal);
+    color: var(--corpreta);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    font-family: 'Righteous', cursive;
+    font-size: 5em;
+    font-weight: 400;
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+.container{    
+    height: 100vh;
+}
+.conteudo{
+    height: 250vh;
+    background-color: var(--branco-principal);
+}
+.h1a{
+    font-family: 'Tektur', cursive;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    right: 10.2em;
+    font-size: 0.5em;
+    color: var(--corpreta);
+    top: 20vh;
+    right: 58vh;
+}
+.h1a{
+    background-color: var(--fundo-principal);
+    opacity: 0.8;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    top: 10vh;
+}
+.p2{
+    color: var(--corpreta);
+    line-height: 2;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    font-size: 2vh;
+    top: 10vh;
+    right: 58vh;
+    max-width: 400px;
+    padding: 10px;
+}
+.h1b{
+    left: 60vh;
+    font-family: "tektur", cursive;
+    padding: 0;
+    position: relative;
+    font-size: 0.5em;
+    color: var(--corpreta);
+    top: 5vh;
+}
+.h1b{
+    background-color: var(--fundo-principal);
+    opacity: 0.8;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    top: 20vh;
+}
+.p2b{
+    color: var(--corpreta);
+    line-height: 2;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    font-size: 2vh;
+    top: 20vh;
+    left: 59vh;
+    max-width: 400px;
+    padding: 10px;
+}
+.h1c{
+    font-family: 'Tektur', cursive;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    right: 10.2em;
+    font-size: 0.5em;
+    color: var(--corpreta);
+    top: 20vh;
+    right: 58vh;
+}
+.h1c{
+    background-color: var(--fundo-principal);
+    opacity: 0.8;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    top: 30vh;
+}
+.p2c{
+    color: var(--corpreta);
+    line-height: 2;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    font-size: 2vh;
+    top: 30vh;
+    right: 58vh;
+    max-width: 400px;
+    padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
